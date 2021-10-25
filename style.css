@@ -7,7 +7,10 @@ body {
 .profile {
     border-radius: 50%;
 }
-
+.profile:hover {
+    transform: scale(0.9);
+    border-radius: 50px;
+}
 #welcome {
     position: absolute;
     bottom: 0;
@@ -80,4 +83,10 @@ h2 {
 }
 a {
     text-decoration: none;
+}
+#contact iframe {
+    width:100% ;
+}
+#contact {
+    background-color: rgba(223, 101, 20, 0.89);
 }
